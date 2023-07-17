@@ -32,7 +32,9 @@ body{
 }
 
 /*--------- start header section ----------------- */
-
+.menu-logo{
+    display: none;
+}
 nav{
     display: flex;
     align-items: center;
@@ -59,6 +61,8 @@ nav ul li i{
     font-size:2rem;
 }
 
+
+
 /* start hero section  */
 
 .hero-container{
@@ -68,6 +72,7 @@ nav ul li i{
     grid-gap: 20px;
     align-items: center;
     justify-content: space-between;
+    
 }
 .hero-items h2{
     font-size: 40px;
@@ -193,4 +198,45 @@ nav ul li i{
 }
 .features-btn {
     border-radius: 0;
+}
+
+/*--------------- footer  ---------------*/
+
+footer{
+    background: var(--footer-bg);
+    padding: 100px 0;
+}
+.footer-content{
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+.footer-content p{
+    color:  Gray ;
+    font-size: 12px;
+    margin: 10px 0;
+}
+.footer-content ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-content ul li{
+    width: 80px ;
+    height: 50px;
+    background: #000;
+    padding: 10px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footer-content ul li i{
+    font-size: 18px;
+}
+.footer-content ul li:hover{
+    color: #E02C6D;
 }

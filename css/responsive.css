@@ -1,0 +1,40 @@
+@media screen and (max-width:576px) {
+    .container{
+        width: 95%;
+        margin: auto;
+    }
+    .menu-logo{
+        display: block;
+        font-size: 20px;
+    }
+    nav{
+        padding: 10px 0;
+    }
+    .menu-item{
+        display: none;
+    }
+    nav ul li i{
+        font-size:1rem;
+    }
+    nav .logo h2{
+        font-size: 20px;
+    }
+    .hero-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hero-items h2{
+        font-size: 25px;
+    }
+    .hero-items p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:992px) and (min-width:577px){
+    .container{
+        width: 90%;
+    }
+    nav ul li {
+        padding: 10px;
+    }
+} 
