@@ -30,6 +30,9 @@ body{
     cursor: pointer;
     font-size: 15px;
 }
+.primary-btn:hover{
+    transform: scale(1.1);
+}
 
 /*--------- start header section ----------------- */
 .menu-logo{
@@ -43,6 +46,10 @@ nav{
 }
 nav .logo h2{
     color: var(--heading-color);
+    cursor: pointer;
+}
+nav .logo h2:hover{
+    color: var(--btn-color);
 }
 nav ul{
     display: flex;
@@ -108,12 +115,15 @@ nav ul li i{
     margin: 50px 0;
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(100px , 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(120px , 1fr));
     justify-content: space-between;
     align-items: center;
     border-top: 2px solid #f6f6f6;
     border-bottom: 2px solid #f6f6f6;
     padding: 50px 0;
+}
+.brand-logos-container img{
+    cursor: pointer;
 }
  
 
